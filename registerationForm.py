@@ -7,7 +7,7 @@ class RegisterationForm(Tk):
 
         self.title('Welcome to registeration Form')
         
-        img = PhotoImage(file="image/logo.png")
+        img = PhotoImage(file="image/logo.png") #replace with image path
         canvas = Canvas(self, width = 300, height = 296)      
         label = Label(self, text="St. Thomas' College of Enginnering & Technology\nSTCET - 2021")
         canvas1 = Canvas(self, width = 300, height = 296)
