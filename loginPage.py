@@ -1,14 +1,12 @@
 from tkinter import *
 
-
-
 class LoginPage(Tk):
 
     def __init__(self):
         super().__init__()
         self.title('Login')
         self.RETURNVALUE = 0
-        img = PhotoImage(file="image/logo.png")      
+        img = PhotoImage(file="image/logo.png")      #replace with image path
         canvas = Canvas(self, width = 310, height = 296)      
         label = Label(self, text="St. Thomas' College of Enginnering & Technology\nSTCET - 2021")
         canvas1 = Canvas(self, width = 310, height = 296)
